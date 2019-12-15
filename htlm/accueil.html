@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html>
+ 
+<!-- head -->
+<head>
+<meta charset="utf-8">
+<title> Mon Site </title>
+ 
+<!-- css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+<link rel="stylesheet" type="text/css" href="src/css/main.css">
+<!-- css -->
+ 
+<!-- font -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Dancing+Script:400,600|Mukta|Shadows+Into+Light&display=swap" rel="stylesheet">
+<!-- Font -->
+ 
+<!-- meta SEO -->
+<meta name="description" content="Mon blog de cuisine 🍽 ">
+<meta name="keywords" content="MOT CLES">
+<!-- meta SEO -->
+ 
+</head>
+<!-- head -->
+ 
+<!-- body -->
+<body>
+ 
+ 
+<!-- header -->
+<div class="block">
+<header class="header">
+<a href="#" class="header-logo">Le Blog de Chloé 🍴</a>
+<nav class="header-menu">
+<a href="accueil.html">Accueil</a>
+<a href="recettes.html">Recettes</a>
+<a href="veranda.html">Spéciaux</a>
+<a href="contact.html">Contact</a>
+ 
+</nav>
+ 
+</header>
+ 
+</div>
+<!-- header -->
+ 
+ 
+ 
+<!-- banner -->
+ 
+<div class="block">
+<div class="banner">
+<img src="images/banner.jpg" alt=" cuisine " class="banner-image"
+width="1000000"
+height="1000000">
+<div class="banner-content">
+<h1 class="title is-1"> Bienvenue sur Le Blog de Chloé  </h1>
+<h2 class="subtitle"> Découvrez mes recettes </h2>
+<button class="button is-link" id="open_modal">Contactez-moi</button>
+</div>
+</div>
+</div>
+<!-- banner -->
+ 
+ 
+<!-- modal -->
+<div class="modal own-modal" id="modal_to_open">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Contactez-nous</p>
+      <button class="delete" aria-label="close" id="close_modal"></button>
+    </header>
+    <section class="modal-card-body">
+    <p> Laissez-moi un commentaire </p>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-link">Envoyer</button>
+      <button class="button">Fermer</button>
+    </footer>
+  </div>
+</div>
+<!-- modal -->
+ 
+ 
+
+
+ 
+ 
+<!-- section : a propos -->
+<div class="block">
+<h2 class="subtitle heading-site"> Qui je suis 👱🏼‍♀️ </h2>
+<div class="container about">
+<div class="columns">
+
+<p>
+
+</p>
+</div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+ 
+<div class="tile is-ancestor">
+<div class="tile is-vertical is-8">
+<div class="tile">
+<div class="tile is-parent is-vertical">
+<article class="tile is-child">
+
+  </article>
+<article class="tile is-child">
+
+</article>
+</div>
+<div class="tile is-parent">
+<article class="tile is-child">
+<div class="notification is-primary">
+<div class="COLORED"> <p>
+Bonjour à tous je m'appelle Chloé, depuis petite j'adore la cuisine, je cuisinais toujours pour mes parents et ma famille. J'ai donc décidé au fur et à mesure de modifier mes recettes pour qu'elles me plaisent le plus possible.</p>
+<p>Puis j'ai voulu faire cela avec vous, en vous partageant mes recettes favorites du moments sur mon blog de cuisine. </p>
+<p>Il y en a pour tous les goûts</p> </div>
+</div>
+ 
+</article>
+</div>
+</div>
+<div class="tile is-parent">
+<article class="tile is-child">
+<img src="images/ustensiles.jpg" alt="Ma cuisine">
+</article>
+</div>
+</div>
+<div class="tile is-parent">
+<article class="tile is-child">
+<div class="notification is-warning">
+<p>Depuis peu j'ai mit en place pas propre collection d'ustencils pour cuisiner.</p>
+<p> Disponible sur CooksW/me.com</p>
+<p>J'au toujours eu l'impression de ne pas avoir l'ustencil nécéssaire pour cuisiner, j'ai donc remédié au probleme et vous le partage.</p>
+<p>Je vends du materiel mêlant qualitée, abordabilité et design.</p>
+
+</div>
+</article>
+</div>
+</div>
+
+</div>
+</div>
+
+ 
+
+<!-- contact  -->
+<div class="block">
+<footer class="footer">
+<h2 class="heading-site"> Contactez-moi</h2>
+<div class="footer-contact-form">
+ 
+<form>
+<div class="field">
+<label class="label">Ton petit nom</label>
+<div class="control">
+<input id="name" class="input" type="text" placeholder="Hathaway" name="name">
+</div>
+</div>
+<div class="field">
+<label class="label">Et ton petit prénom</label>
+<div class="control">
+<input id="firstname" class="input" type="text" placeholder="Olivia" name="firstname">
+</div>
+</div>
+<div class="field">
+<label class="label">Ton e-mail pour tout savoir</label>
+<div class="control">
+<input id="email" class="input" type="text" placeholder="Oliviahtw@gmail.com" name="email">
+</div>
+</div>
+<div class="field">
+<label class="label">Laisse moi un petit message</label>
+<div class="control">
+<textarea id="message" class="textarea" placeholder="Ton blog il est trop beau, j'adore tes idées" name="message"></textarea>
+</div>
+</div>
+</form>
+<button class="button is-link" id="send_email"> Envoyer ! </button>
+ 
+</div>
+<div class="footer-informations">
+
+<ul>
+<li>
+<a href="#">
+<i class="fab fa-facebook-square"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fab fa-youtube"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fab fa-instagram"></i>
+</a>
+</li>
+</ul>
+</div>
+</footer>
+</div>
+ 
+<!-- contact  -->
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="src/js/main.js"></script>
+</body>
+<!-- body -->
+ 
+ 
+ 
+</html>
